@@ -1,0 +1,234 @@
+html{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+width: 150%;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    align-items: center;
+    gap: 5em;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+#logo{
+    width: 100px;
+    height: 70px;
+}
+#af{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    padding: 20px;
+    align-items: center;
+    background: linear-gradient(to right, rgba(6, 6, 90, 0.884), rgba(3, 3, 204, 0.993) );
+   
+}
+.left{
+    padding: 70px;
+}
+h1,h2{
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-family: calibri;
+}
+.btn1{
+    background-color: rgb(17, 36, 206);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.btn1:hover{
+    background-color:  rgb(47, 47, 170);
+}
+.adv{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    padding: 30px;
+    align-items: center;
+}
+#advh1{
+    color: blue;
+    font-size: 30px;
+}
+.right-adv{
+    width: 500px;
+}
+#advim{
+    border-radius: 15px;
+}
+.btn2{
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid rgb(84, 84, 243);
+    color:  rgb(84, 84, 243);
+}
+.btn2:hover{
+    background-color: blue;
+    color: white;
+}
+#whath2,#whath3{
+    color: black;
+    text-align: center;
+}
+.box{
+    background-color: white;
+    color: black;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#section2{
+    color: white;
+    text-align: center;
+}
+.what{
+    background-image: url("pics/o1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.btn3{
+    background-color: white;
+    color: rgb(10, 10, 247);
+    border: 1px solid rgb(16, 16, 247);
+    padding: 15px;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-self: center;
+
+}
+.btn3:hover{
+    background-color: transparent;
+    color:  rgb(23, 23, 247);
+
+}
+#teamh3{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+#teamh1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.our,.pro{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    gap: 1em;
+    
+}
+.contact{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 40px;
+    gap: 1px;
+    background-color: rgb(65, 62, 62);
+    heigt: 50vh;
+}
+.team{
+    padding: 30px;
+    background-color: rgb(16, 16, 241);
+}
+.pic{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23em;
+    flex-direction: column;
+    border-radius: 5px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+
+}
+#con,span{
+    color: white;
+}
+#pic{
+    border-radius: 50%;
+}
+#proh1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+#proh3{
+    color: gray;
+    text-align: center;
+}
+.poj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3), 0 7px 21px 0 rgba(0,0,0,0.20);
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+    transition: height 2s;
+}
+.poj:hover{
+   transform: scale(1.1);
+}
+poja:hover{
+    transform: scale(1.1);
+}
+.poja{
+height: 400px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    height: auto;
+ 
+
+}
+h3,h4{
+text-align: center;
+}
